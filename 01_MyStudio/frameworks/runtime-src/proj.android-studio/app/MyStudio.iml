@@ -33,327 +33,6 @@
     <content url="file://D:/Application/android-sdk-windows/ndk-bundle/sources/android/cpufeatures">
       <sourceFolder url="file://D:/Application/android-sdk-windows/ndk-bundle/sources/android/cpufeatures" isTestSource="false" />
     </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/2d">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/2d" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/3d">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/3d" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android/audio_utils">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android/audio_utils" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android/jni">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android/jni" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android/utils">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/audio/android/utils" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/base">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/base" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/base/allocator">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/base/allocator" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/deprecated">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/deprecated" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocosbuilder">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocosbuilder" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/ActionTimeline" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ArmatureNodeReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ArmatureNodeReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ButtonReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ButtonReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/CheckBoxReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/CheckBoxReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ComAudioReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ComAudioReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/GameMapReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/GameMapReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/GameNode3DReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/GameNode3DReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ImageViewReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ImageViewReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/LayoutReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/LayoutReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Light3DReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Light3DReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ListViewReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ListViewReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/LoadingBarReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/LoadingBarReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Node3DReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Node3DReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/NodeReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/NodeReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/PageViewReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/PageViewReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Particle3DReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Particle3DReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ParticleReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ParticleReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ProjectNodeReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ProjectNodeReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ScrollViewReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/ScrollViewReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SingleNodeReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SingleNodeReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SkeletonReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SkeletonReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SliderReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SliderReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Sprite3DReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/Sprite3DReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SpriteReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/SpriteReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TabControlReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TabControlReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextAtlasReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextAtlasReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextBMFontReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextBMFontReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextFieldReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextFieldReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/TextReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/UserCameraReader">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/cocostudio/WidgetReader/UserCameraReader" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/spine">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/editor-support/spine" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/math">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/math" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/navmesh">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/navmesh" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/network">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/network" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/physics">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/physics" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/physics3d">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/physics3d" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/platform">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/platform" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/platform/android">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/platform/android" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/platform/android/jni">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/platform/android/jni" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/renderer">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/renderer" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/auto">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/auto" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/3d">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/3d" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocosbuilder">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocosbuilder" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocosdenshion">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocosdenshion" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/extension">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/extension" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/network">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/network" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/platform/android">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/platform/android" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/platform/android/jni">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/platform/android/jni" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/spine">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/spine" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/ui">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/scripting/lua-bindings/manual/ui" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/ui">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/ui" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/ui/UIEditBox">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/ui/UIEditBox" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/vr">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/cocos/vr" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/GUI/CCControlExtension">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/GUI/CCControlExtension" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/GUI/CCScrollView">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/GUI/CCScrollView" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/Particle3D">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/Particle3D" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/Particle3D/PU">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/Particle3D/PU" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/assets-manager">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/assets-manager" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/physics-nodes">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/extensions/physics-nodes" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Collision">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Collision" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Collision/Shapes">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Collision/Shapes" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Common">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Common" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Dynamics">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Dynamics" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Dynamics/Contacts">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Dynamics/Contacts" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Dynamics/Joints">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Dynamics/Joints" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Rope">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/Box2D/Rope" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/ConvertUTF">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/ConvertUTF" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/android-specific/pvmp3dec/src">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/android-specific/pvmp3dec/src" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/android-specific/pvmp3dec/src/asm">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/android-specific/pvmp3dec/src/asm" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/android-specific/tremolo/Tremolo">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/android-specific/tremolo/Tremolo" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/clipper">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/clipper" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/edtaa3func">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/edtaa3func" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/flatbuffers">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/flatbuffers" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/lua/luasocket">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/lua/luasocket" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/lua/tolua">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/lua/tolua" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/md5">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/md5" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/poly2tri/common">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/poly2tri/common" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/poly2tri/sweep">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/poly2tri/sweep" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/DebugUtils">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/DebugUtils" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/Detour">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/Detour" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/DetourCrowd">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/DetourCrowd" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/DetourTileCache">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/DetourTileCache" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/fastlz">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/recast/fastlz" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/tinyxml2">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/tinyxml2" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/unzip">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/unzip" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/xxhash">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/xxhash" isTestSource="false" />
-    </content>
-    <content url="file://$MODULE_DIR$/../../../cocos2d-x/external/xxtea">
-      <sourceFolder url="file://$MODULE_DIR$/../../../cocos2d-x/external/xxtea" isTestSource="false" />
-    </content>
     <content url="file://$MODULE_DIR$/../../Classes">
       <sourceFolder url="file://$MODULE_DIR$/../../Classes" isTestSource="false" />
     </content>
@@ -415,13 +94,344 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-safeguard" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/jniLibs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/ndkBuild" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/pre-dexed" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
+      <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/2d">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/2d" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/3d">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/3d" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android/audio_utils">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android/audio_utils" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android/jni">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android/jni" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android/utils">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/audio/android/utils" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/base">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/base" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/base/allocator">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/base/allocator" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/deprecated">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/deprecated" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocosbuilder">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocosbuilder" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/ActionTimeline">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/ActionTimeline" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ArmatureNodeReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ArmatureNodeReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ButtonReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ButtonReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/CheckBoxReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/CheckBoxReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ComAudioReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ComAudioReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/GameMapReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/GameMapReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/GameNode3DReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/GameNode3DReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ImageViewReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ImageViewReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/LayoutReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/LayoutReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Light3DReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Light3DReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ListViewReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ListViewReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/LoadingBarReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/LoadingBarReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Node3DReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Node3DReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/NodeReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/NodeReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/PageViewReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/PageViewReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Particle3DReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Particle3DReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ParticleReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ParticleReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ProjectNodeReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ProjectNodeReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ScrollViewReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/ScrollViewReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SingleNodeReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SingleNodeReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SkeletonReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SkeletonReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SliderReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SliderReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Sprite3DReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/Sprite3DReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SpriteReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/SpriteReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TabControlReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TabControlReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextAtlasReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextAtlasReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextBMFontReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextBMFontReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextFieldReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextFieldReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/TextReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/UserCameraReader">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/cocostudio/WidgetReader/UserCameraReader" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/spine">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/editor-support/spine" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/math">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/math" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/navmesh">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/navmesh" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/network">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/network" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/physics">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/physics" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/physics3d">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/physics3d" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/platform">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/platform" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/platform/android">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/platform/android" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/platform/android/jni">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/platform/android/jni" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/renderer">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/renderer" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/auto">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/auto" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/3d">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/3d" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/audioengine">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/audioengine" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocos2d">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocos2d" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocosbuilder">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocosbuilder" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocosdenshion">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocosdenshion" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocostudio">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/cocostudio" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/extension">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/extension" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/navmesh">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/navmesh" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/network">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/network" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/physics3d">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/physics3d" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/platform/android">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/platform/android" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/platform/android/jni">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/platform/android/jni" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/spine">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/spine" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/ui">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/scripting/lua-bindings/manual/ui" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/ui">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/ui" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/ui/UIEditBox">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/ui/UIEditBox" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/vr">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/cocos/vr" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/GUI/CCControlExtension">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/GUI/CCControlExtension" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/GUI/CCScrollView">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/GUI/CCScrollView" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/Particle3D">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/Particle3D" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/Particle3D/PU">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/Particle3D/PU" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/assets-manager">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/assets-manager" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/physics-nodes">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/extensions/physics-nodes" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Collision">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Collision" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Collision/Shapes">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Collision/Shapes" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Common">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Common" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Dynamics">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Dynamics" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Dynamics/Contacts">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Dynamics/Contacts" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Dynamics/Joints">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Dynamics/Joints" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Rope">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/Box2D/Rope" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/ConvertUTF">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/ConvertUTF" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/android-specific/pvmp3dec/src">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/android-specific/pvmp3dec/src" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/android-specific/pvmp3dec/src/asm">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/android-specific/pvmp3dec/src/asm" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/android-specific/tremolo/Tremolo">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/android-specific/tremolo/Tremolo" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/clipper">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/clipper" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/edtaa3func">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/edtaa3func" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/flatbuffers">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/flatbuffers" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/lua/luasocket">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/lua/luasocket" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/lua/tolua">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/lua/tolua" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/md5">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/md5" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/poly2tri/common">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/poly2tri/common" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/poly2tri/sweep">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/poly2tri/sweep" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/DebugUtils">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/DebugUtils" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/Detour">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/Detour" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/DetourCrowd">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/DetourCrowd" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/DetourTileCache">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/DetourTileCache" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/fastlz">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/recast/fastlz" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/tinyxml2">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/tinyxml2" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/unzip">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/unzip" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/xxhash">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/xxhash" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../../../GxFramework/external/xxtea">
+      <sourceFolder url="file://$MODULE_DIR$/../../../../../GxFramework/external/xxtea" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 14 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

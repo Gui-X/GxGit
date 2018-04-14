@@ -212,7 +212,7 @@ android.applicationVariants.all { variant ->
                 case 0:
                     compileLua("${buildDir}/intermediates/assets/${variant.dirName}/src",
                                "${buildDir}/intermediates/assets/${variant.dirName}/src",
-                               true, false, encryptLua)
+                               false, false, encryptLua)
                     break
                 case 1:
                     compileLua("${buildDir}/intermediates/assets/${variant.dirName}/src",
