@@ -92,9 +92,9 @@
       <TargetMachine>MachineX86</TargetMachine>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(OutDir);$(EngineRoot)external\spidermonkey\prebuilt\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>mozjs-33.lib;libbox2d.lib;libSpine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>libcurl.lib;libbox2d.lib;libSpine.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <ProgramDatabaseFile>$(ProjectDir)../../../runtime/win32/$(TargetName).pdb</ProgramDatabaseFile>
-      <OutputFile>$(ProjectDir)../../../runtime/win32/$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
       <IgnoreSpecificDefaultLibraries>libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
     <ResourceCompile>
