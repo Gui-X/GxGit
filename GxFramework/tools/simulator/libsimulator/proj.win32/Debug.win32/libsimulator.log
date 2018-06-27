@@ -1,10 +1,203 @@
-﻿生成启动时间为 2018/4/16 11:33:36。
-     1>项目“E:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\libsimulator.vcxproj”在节点 5 上(Build 个目标)。
+﻿生成启动时间为 2018/6/11 10:56:10。
+     1>项目“E:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\libsimulator.vcxproj”在节点 3 上(Build 个目标)。
      1>PreBuildEvent:
-         if not exist "E:\03_GxGit\GxFramework\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "E:\03_GxGit\GxFramework\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\"
+         if not exist "E:\03_GxGit\01_MyStudio\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "E:\03_GxGit\01_MyStudio\frameworks\runtime-src\proj.win32\Debug.win32\"
          :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IE:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\ /I"E:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\..\lib\protobuf-lite" /IE:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\..\lib /I"E:\03_GxGit\GxFramework\cocos\2d\..\..\external\win32-specific\zlib\include" /I"E:\03_GxGit\GxFramework\cocos\2d\..\..\cocos\scripting\lua-bindings\auto" /I"E:\03_GxGit\GxFramework\cocos\2d\..\..\cocos\scripting\lua-bindings\manual" /IE:\03_GxGit\GxFramework\cocos\2d\..\..\cocos\audio\include /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\lua\lua /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\lua\tolua /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\chipmunk\include\chipmunk /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\curl\include\win32 /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\tinyxml2 /IE:\03_GxGit\GxFramework\cocos\2d\..\..\extensions /IE:\03_GxGit\GxFramework\cocos\2d\..\..\ /IE:\03_GxGit\GxFramework\cocos\2d\..\..\cocos /I"E:\03_GxGit\GxFramework\cocos\2d\..\..\cocos/editor-support" /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\glfw3\include\win32 /I"E:\03_GxGit\GxFramework\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\freetype2\include\win32\freetype2 /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\freetype2\include\win32\ /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external /IE:\03_GxGit\GxFramework\cocos\2d\..\..\external\openssl\include\win32 /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS_DEBUG /D COCOS2D_DEBUG=1 /D GLFW_EXPOSE_NATIVE_WIN32 /D GLFW_EXPOSE_NATIVE_WGL /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /D _SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS /D _USRLIBSIMSTATIC /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /FIalgorithm /analyze- /errorReport:prompt ..\lib\AppEvent.cpp ..\lib\AppLang.cpp ..\lib\PlayerMenuServiceProtocol.cpp ..\lib\PlayerProtocol.cpp ..\lib\PlayerServiceProtocol.cpp ..\lib\PlayerSettings.cpp ..\lib\PlayerTaskServiceProtocol.cpp ..\lib\PlayerUtils.cpp ..\lib\ProjectConfig\ProjectConfig.cpp ..\lib\ProjectConfig\SimulatorConfig.cpp ..\lib\network\CCHTTPRequest.cpp "..\lib\platform\win32\DeviceEx-win32.cpp" ..\lib\platform\win32\PlayerEditBoxServiceWin.cpp ..\lib\platform\win32\PlayerFileDialogServiceWin.cpp ..\lib\platform\win32\PlayerMenuServiceWin.cpp ..\lib\platform\win32\PlayerMessageBoxServiceWin.cpp ..\lib\platform\win32\PlayerTaskServiceWin.cpp ..\lib\platform\win32\PlayerWin.cpp "..\lib\protobuf-lite\google\protobuf\extension_set.cc" "..\lib\protobuf-lite\google\protobuf\generated_message_util.cc" "..\lib\protobuf-lite\google\protobuf\io\coded_stream.cc" "..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream.cc" "..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc" "..\lib\protobuf-lite\google\protobuf\message_lite.cc" "..\lib\protobuf-lite\google\protobuf\repeated_field.cc" "..\lib\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" "..\lib\protobuf-lite\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" "..\lib\protobuf-lite\google\protobuf\stubs\common.cc" "..\lib\protobuf-lite\google\protobuf\stubs\once.cc" "..\lib\protobuf-lite\google\protobuf\stubs\stringprintf.cc" "..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc" ..\lib\runtime\ConfigParser.cpp ..\lib\runtime\ConnectWaitLayer.cpp ..\lib\runtime\ConsoleCommand.cpp ..\lib\runtime\FileServer.cpp ..\lib\runtime\Landscape_png.cpp ..\lib\runtime\PlayDisable_png.cpp ..\lib\runtime\PlayEnable_png.cpp ..\lib\runtime\Portrait_png.cpp ..\lib\runtime\Protos.pb.cc ..\lib\runtime\Runtime.cpp ..\lib\runtime\RuntimeCCSImpl.cpp ..\lib\runtime\RuntimeProtocol.cpp ..\lib\runtime\Shine_png.cpp ..\lib\runtime\VisibleRect.cpp Runtime_win32.cpp stdafx.cpp
+         AppEvent.cpp
+         AppLang.cpp
+         PlayerMenuServiceProtocol.cpp
+         PlayerProtocol.cpp
+         PlayerServiceProtocol.cpp
+         PlayerSettings.cpp
+         PlayerTaskServiceProtocol.cpp
+         PlayerUtils.cpp
+         ProjectConfig.cpp
+         SimulatorConfig.cpp
+         CCHTTPRequest.cpp
+     1>..\lib\ProjectConfig\ProjectConfig.cpp(661): warning C4018: “>=”: 有符号/无符号不匹配
+         DeviceEx-win32.cpp
+         PlayerEditBoxServiceWin.cpp
+         PlayerFileDialogServiceWin.cpp
+         PlayerMenuServiceWin.cpp
+         PlayerMessageBoxServiceWin.cpp
+         PlayerTaskServiceWin.cpp
+         PlayerWin.cpp
+         extension_set.cc
+         generated_message_util.cc
+         coded_stream.cc
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (..\lib\protobuf-lite\google\protobuf\extension_set.cc)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(785): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 []
+         ,            Element=google::protobuf::uint64
+         ,            _InIt=const google::protobuf::uint64 []
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(784): 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(776): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(677): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(303): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)”的引用
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+         zero_copy_stream.cc
+         zero_copy_stream_impl_lite.cc
+         message_lite.cc
+     1>..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc(157): warning C4018: “<”: 有符号/无符号不匹配
+     1>..\lib\protobuf-lite\google\protobuf\io\zero_copy_stream_impl_lite.cc(177): warning C4018: “<=”: 有符号/无符号不匹配
+         repeated_field.cc
+         atomicops_internals_x86_gcc.cc
+         atomicops_internals_x86_msvc.cc
+         common.cc
+     1>..\lib\protobuf-lite\google\protobuf\stubs\common.cc(377): warning C4018: “<”: 有符号/无符号不匹配
+         once.cc
+         stringprintf.cc
+     1>..\lib\protobuf-lite\google\protobuf\stubs\stringprintf.cc(152): warning C4018: “<”: 有符号/无符号不匹配
+         wire_format_lite.cc
+         ConfigParser.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (..\lib\protobuf-lite\google\protobuf\wire_format_lite.cc)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(785): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 []
+         ,            Element=google::protobuf::uint64
+         ,            _InIt=const google::protobuf::uint64 []
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(784): 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(776): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(771): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(770): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(757): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(749): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”时
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(631): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”的引用
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(590): 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(270): 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(250): 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(303): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)”的引用
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+         ConnectWaitLayer.cpp
+         ConsoleCommand.cpp
+         FileServer.cpp
+     1>..\lib\runtime\ConfigParser.cpp(108): warning C4018: “<”: 有符号/无符号不匹配
+         Landscape_png.cpp
+         PlayDisable_png.cpp
+         PlayEnable_png.cpp
+         Portrait_png.cpp
+         Protos.pb.cc
+         Runtime.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2132): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators' (..\lib\runtime\Protos.pb.cc)
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(785): 参见对正在编译的函数 模板 实例化“_OutIt std::copy<const Element[],Element[]>(_InIt,_InIt,_OutIt)”的引用
+                 with
+                 [
+                     _OutIt=google::protobuf::uint64 []
+         ,            Element=google::protobuf::uint64
+         ,            _InIt=const google::protobuf::uint64 []
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(784): 编译类 模板 成员函数“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): 参见对正在编译的函数 模板 实例化“void google::protobuf::internal::ElementCopier<Element,false>::operator ()(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(777): 参见对正在编译的类 模板 实例化“google::protobuf::internal::ElementCopier<Element,false>”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(776): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(771): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::CopyArray(Element [],const Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(770): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”时
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(757): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::MoveArray(Element [],Element [],int)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(749): 编译类 模板 成员函数“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”时
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(631): 参见对正在编译的函数 模板 实例化“void google::protobuf::RepeatedField<google::protobuf::uint64>::Reserve(int)”的引用
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/repeated_field.h(590): 编译类 模板 成员函数“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”时
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(270): 参见对正在编译的函数 模板 实例化“int google::protobuf::RepeatedField<google::protobuf::uint64>::size(void) const”的引用
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(250): 参见对正在编译的类 模板 实例化“google::protobuf::RepeatedField<google::protobuf::uint64>”的引用
+                 E:\03_GxGit\GxFramework\tools\simulator\libsimulator\lib\protobuf-lite\google/protobuf/wire_format_lite_inl.h(303): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadRepeatedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(int,google::protobuf::uint32,google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<google::protobuf::uint64> *)”的引用
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xutility(2113) : 参见“std::_Copy_impl”的声明
+         RuntimeCCSImpl.cpp
+         RuntimeProtocol.cpp
+         Shine_png.cpp
+         VisibleRect.cpp
+         Runtime_win32.cpp
+         stdafx.cpp
        Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\03_GxGit\GxFramework\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\libsimulator.lib" /NOLOGO Debug.win32\CCHTTPRequest.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\03_GxGit\01_MyStudio\frameworks\runtime-src\proj.win32\Debug.win32\libsimulator.lib" /NOLOGO Debug.win32\CCHTTPRequest.obj
          "Debug.win32\DeviceEx-win32.obj"
          Debug.win32\PlayerEditBoxServiceWin.obj
          Debug.win32\PlayerFileDialogServiceWin.obj
@@ -56,13 +249,13 @@
      1>PlayerUtils.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
      1>PlayerSettings.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
      1>PlayerServiceProtocol.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
-         libsimulator.vcxproj -> E:\03_GxGit\GxFramework\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\libsimulator.lib
+         libsimulator.vcxproj -> E:\03_GxGit\01_MyStudio\frameworks\runtime-src\proj.win32\Debug.win32\libsimulator.lib
        PostBuildEvent:
-         xcopy /Y /Q "E:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\..\lib\lang" "E:\03_GxGit\GxFramework\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "E:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\..\lib\lang" "E:\03_GxGit\01_MyStudio\frameworks\runtime-src\proj.win32\Debug.win32\"
          :VCEnd
          复制了 1 个文件
      1>已完成生成项目“E:\03_GxGit\GxFramework\tools\simulator\libsimulator\proj.win32\libsimulator.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.35
+已用时间 00:02:51.23
