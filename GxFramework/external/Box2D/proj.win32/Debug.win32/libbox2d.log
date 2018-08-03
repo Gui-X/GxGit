@@ -1,7 +1,7 @@
-﻿生成启动时间为 2018/6/26 10:00:53。
+﻿生成启动时间为 2018/8/2 16:56:45。
      1>项目“E:\03_GxGit\GxFramework\external\Box2D\proj.win32\libbox2d.vcxproj”在节点 2 上(Build 个目标)。
      1>Lib:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\03_GxGit\07_GameClient\proj.win32\Debug.win32\libbox2d.lib" /NOLOGO Debug.win32\b2BroadPhase.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"E:\03_GxGit\GxFramework\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\libbox2d.lib" /NOLOGO Debug.win32\b2BroadPhase.obj
          Debug.win32\b2CollideCircle.obj
          Debug.win32\b2CollideEdge.obj
          Debug.win32\b2CollidePolygon.obj
@@ -47,9 +47,9 @@
          Debug.win32\b2WeldJoint.obj
          Debug.win32\b2WheelJoint.obj
          Debug.win32\b2Rope.obj
-         libbox2d.vcxproj -> E:\03_GxGit\07_GameClient\proj.win32\Debug.win32\libbox2d.lib
+         libbox2d.vcxproj -> E:\03_GxGit\GxFramework\tools\simulator\frameworks\runtime-src\proj.win32\Debug.win32\libbox2d.lib
      1>已完成生成项目“E:\03_GxGit\GxFramework\external\Box2D\proj.win32\libbox2d.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.63
+已用时间 00:00:07.34
