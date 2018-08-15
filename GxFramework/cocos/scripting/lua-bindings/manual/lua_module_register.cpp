@@ -11,6 +11,7 @@
 #include "scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.h"
 #include "scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.h"
 #include "scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.h"
+#include "md5/lua_md5.h"
 
 
 int lua_module_register(lua_State* L)
@@ -18,6 +19,7 @@ int lua_module_register(lua_State* L)
     // Don't change the module register order unless you know what your are doing
     register_cocosdenshion_module(L);
     register_network_module(L);
+	LUA_MD5::register_md5_module(L);
     register_cocosbuilder_module(L);
     register_cocostudio_module(L);
     register_ui_module(L);

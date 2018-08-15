@@ -65,9 +65,15 @@ LOCAL_SRC_FILES := ../manual/CCLuaBridge.cpp \
           ../auto/lua_cocos2dx_audioengine_auto.cpp \
           ../manual/audioengine/lua_cocos2dx_audioengine_manual.cpp
 #cjson
+LOCAL_CFLAGS    += -DENABLE_CJSON_GLOBAL
 LOCAL_SRC_FILES += ../../../../external/lua/cjson/fpconv.c \
                    ../../../../external/lua/cjson/lua_cjson.c \
                    ../../../../external/lua/cjson/strbuf.c
+
+#md5
+LOCAL_CFLAGS    += -DHAVE_OPENSSL
+LOCAL_SRC_FILES += ../../../../external/lua/md5/md5.c \
+                   ../../../../external/lua/md5/lua_md5.cpp
 
 #Component
 LOCAL_SRC_FILES += ../manual/CCComponentLua.cpp \
