@@ -75,6 +75,9 @@ LOCAL_CFLAGS    += -DHAVE_OPENSSL
 LOCAL_SRC_FILES += ../../../../external/lua/md5/md5.c \
                    ../../../../external/lua/md5/lua_md5.cpp
 
+#pbc
+LOCAL_SRC_FILES += ../../../../external/lua/pbc/lua_cocos2dx_pbc_manual.cpp
+
 #Component
 LOCAL_SRC_FILES += ../manual/CCComponentLua.cpp \
 
@@ -175,7 +178,11 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../manual/navmesh \
                     $(LOCAL_PATH)/../../../../external/xxtea \
                     $(LOCAL_PATH)/../../../.. \
-                    $(LOCAL_PATH)/../../../../external/lua
+                    $(LOCAL_PATH)/../../../../external/lua \
+                    $(LOCAL_PATH)/../../../../external/pbc-master \
+                    $(LOCAL_PATH)/../../../../external/pbc-master/src \
+                    $(LOCAL_PATH)/../../../../external/pbc-master/src/binding/lua \
+
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
 						   $(LUA_INCLUDE_PATH) \
@@ -197,6 +204,7 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2d_lua_android_static
 
 LOCAL_STATIC_LIBRARIES := cocos2dx_static
+LOCAL_STATIC_LIBRARIES += pbc_static
 
 include $(BUILD_STATIC_LIBRARY)
 

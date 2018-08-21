@@ -30,6 +30,7 @@
     <ClCompile Include="..\..\..\..\external\lua\luasocket\wsocket.c" />
     <ClCompile Include="..\..\..\..\external\lua\md5\lua_md5.cpp" />
     <ClCompile Include="..\..\..\..\external\lua\md5\md5.c" />
+    <ClCompile Include="..\..\..\..\external\lua\pbc\lua_cocos2dx_pbc_manual.cpp" />
     <ClCompile Include="..\..\..\..\external\lua\tolua\tolua_event.c" />
     <ClCompile Include="..\..\..\..\external\lua\tolua\tolua_is.c" />
     <ClCompile Include="..\..\..\..\external\lua\tolua\tolua_map.c" />
@@ -115,6 +116,7 @@
     <ClInclude Include="..\..\..\..\external\lua\luasocket\wsocket.h" />
     <ClInclude Include="..\..\..\..\external\lua\md5\lua_md5.h" />
     <ClInclude Include="..\..\..\..\external\lua\md5\md5.h" />
+    <ClInclude Include="..\..\..\..\external\lua\pbc\lua_cocos2dx_pbc_manual.h" />
     <ClInclude Include="..\..\..\..\external\lua\tolua\tolua++.h" />
     <ClInclude Include="..\..\..\..\external\lua\tolua\tolua_event.h" />
     <ClInclude Include="..\..\..\..\external\xxtea\xxtea.h" />
@@ -234,6 +236,9 @@
     <None Include="..\script\ui\GuiConstants.lua" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\external\pbc-master\pbc.vcxproj">
+      <Project>{82356f33-956b-4931-9977-bd7994b1c761}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\2d\libcocos2d.vcxproj">
       <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
     </ProjectReference>
