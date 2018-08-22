@@ -79,15 +79,6 @@
     <Filter Include="manual\navmesh">
       <UniqueIdentifier>{fa8be49e-8b79-4dc5-8f28-febde1347eda}</UniqueIdentifier>
     </Filter>
-    <Filter Include="cjson">
-      <UniqueIdentifier>{55e29503-f5dd-43bd-a969-1fe31c8204a8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="md5">
-      <UniqueIdentifier>{c60c1b8f-a6f5-4722-ba09-8e82e093c005}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="pbc">
-      <UniqueIdentifier>{8a7cdd01-eb34-45c3-8530-c05e2deb2e97}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\auto\lua_cocos2dx_auto.cpp">
@@ -308,24 +299,6 @@
     </ClCompile>
     <ClCompile Include="..\manual\lua_module_register.cpp">
       <Filter>manual</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\external\lua\cjson\fpconv.c">
-      <Filter>cjson</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\external\lua\cjson\lua_cjson.c">
-      <Filter>cjson</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\external\lua\cjson\strbuf.c">
-      <Filter>cjson</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\external\lua\md5\md5.c">
-      <Filter>md5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\external\lua\md5\lua_md5.cpp">
-      <Filter>md5</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\external\lua\pbc\lua_cocos2dx_pbc_manual.cpp">
-      <Filter>pbc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -556,24 +529,6 @@
     </ClInclude>
     <ClInclude Include="..\manual\Lua-BindingsExport.h">
       <Filter>manual</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\external\lua\cjson\fpconv.h">
-      <Filter>cjson</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\external\lua\cjson\lua_cjson.h">
-      <Filter>cjson</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\external\lua\cjson\strbuf.h">
-      <Filter>cjson</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\external\lua\md5\md5.h">
-      <Filter>md5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\external\lua\md5\lua_md5.h">
-      <Filter>md5</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\external\lua\pbc\lua_cocos2dx_pbc_manual.h">
-      <Filter>pbc</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

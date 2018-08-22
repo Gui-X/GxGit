@@ -64,19 +64,6 @@ LOCAL_SRC_FILES := ../manual/CCLuaBridge.cpp \
           ../../../../external/xxtea/xxtea.cpp \
           ../auto/lua_cocos2dx_audioengine_auto.cpp \
           ../manual/audioengine/lua_cocos2dx_audioengine_manual.cpp
-#cjson
-LOCAL_CFLAGS    += -DENABLE_CJSON_GLOBAL
-LOCAL_SRC_FILES += ../../../../external/lua/cjson/fpconv.c \
-                   ../../../../external/lua/cjson/lua_cjson.c \
-                   ../../../../external/lua/cjson/strbuf.c
-
-#md5
-LOCAL_CFLAGS    += -DHAVE_OPENSSL
-LOCAL_SRC_FILES += ../../../../external/lua/md5/md5.c \
-                   ../../../../external/lua/md5/lua_md5.cpp
-
-#pbc
-LOCAL_SRC_FILES += ../../../../external/lua/pbc/lua_cocos2dx_pbc_manual.cpp
 
 #Component
 LOCAL_SRC_FILES += ../manual/CCComponentLua.cpp \
@@ -178,11 +165,7 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../manual/navmesh \
                     $(LOCAL_PATH)/../../../../external/xxtea \
                     $(LOCAL_PATH)/../../../.. \
-                    $(LOCAL_PATH)/../../../../external/lua \
-                    $(LOCAL_PATH)/../../../../external/pbc-master \
-                    $(LOCAL_PATH)/../../../../external/pbc-master/src \
-                    $(LOCAL_PATH)/../../../../external/pbc-master/src/binding/lua \
-
+                    $(LOCAL_PATH)/../../../../external/lua
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
 						   $(LUA_INCLUDE_PATH) \
@@ -204,9 +187,10 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2d_lua_android_static
 
 LOCAL_STATIC_LIBRARIES := cocos2dx_static
-LOCAL_STATIC_LIBRARIES += pbc_static
 
 include $(BUILD_STATIC_LIBRARY)
 
+$(call import-add-path,$(LOCAL_PATH)/../../../..)
+$(call import-add-path,$(LOCAL_PATH)/../../../../external)
 $(call import-module,$(LUA_IMPORT_PATH))
-$(call import-module,.)
+$(call import-module, cocos)

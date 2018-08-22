@@ -80,12 +80,6 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
-    <PreBuildEvent>
-      <Command>if not exist "$(OutDir)" mkdir "$(OutDir)"</Command>
-    </PreBuildEvent>
-    <PostBuildEvent>
-      <Command>xcopy /Y /Q "$(ProjectDir)..\lib\lang" "$(OutDir)"</Command>
-    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
