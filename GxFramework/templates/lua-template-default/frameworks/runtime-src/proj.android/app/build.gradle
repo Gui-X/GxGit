@@ -1,4 +1,5 @@
-import org.gradle.internal.os.OperatingSystem;
+import org.gradle.internal.os.OperatingSystem
+import org.apache.tools.ant.taskdefs.condition.Os
 
 apply plugin: 'com.android.application'
 
@@ -16,9 +17,31 @@ android {
         externalNativeBuild {
             if (PROP_BUILD_TYPE == 'ndk-build') {
                 ndkBuild {
-                    targets 'cocos2dlua'
-                    arguments 'NDK_TOOLCHAIN_VERSION=clang'
-                    arguments '-j' + Runtime.runtime.availableProcessors()
+                    /* 3.17 arguments */
+                    // targets 'cocos2dlua'
+                    // arguments 'NDK_TOOLCHAIN_VERSION=clang'
+                    // arguments '-j' + Runtime.runtime.availableProcessors()
+                    /* 使用3.16配置 ndk_module_path,解决文件路径过长的问题 */
+                    if (!project.hasProperty("PROP_NDK_MODE") || PROP_NDK_MODE.compareTo('none') != 0) {
+                        // skip the NDK Build step if PROP_NDK_MODE is none
+                        targets 'cocos2dlua'
+                        arguments 'NDK_TOOLCHAIN_VERSION=clang'
+                        // arguments 'APP_PLATFORM=android-'+PROP_APP_PLATFORM
+
+                        def module_paths = [project.file("../../../../../GXFramework").absolutePath,
+                                            project.file("../../../../../GXFramework/cocos").absolutePath,
+                                            project.file("../../../../../GXFramework/external").absolutePath]
+                        if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+                            // should use '/'
+                            module_paths = module_paths.collect {it.replaceAll('\\\\', '/')}
+                            arguments 'NDK_MODULE_PATH=' + module_paths.join(";")
+                        }
+                        else {
+                            arguments 'NDK_MODULE_PATH=' + module_paths.join(':')
+                        }
+
+                        arguments '-j' + Runtime.runtime.availableProcessors()
+                    }
                 }
             }
             else if (PROP_BUILD_TYPE == 'cmake') {
