@@ -76,6 +76,19 @@ LOCAL_SRC_FILES += ../manual/3d/lua_cocos2dx_3d_manual.cpp \
 LOCAL_SRC_FILES += ../manual/cocosdenshion/lua_cocos2dx_cocosdenshion_manual.cpp \
                    ../auto/lua_cocos2dx_cocosdenshion_auto.cpp
 
+#cjson
+LOCAL_SRC_FILES +=  ../../../../external/lua/cjson/fpconv.c \
+                    ../../../../external/lua/cjson/lua_cjson.c \
+                    ../../../../external/lua/cjson/strbuf.c
+#md5
+LOCAL_CFLAGS    += -DHAVE_OPENSSL
+LOCAL_SRC_FILES +=  ../../../../external/lua/md5/md5.c \
+                    ../../../../external/lua/md5/lua_md5.cpp
+
+#pbc
+LOCAL_SRC_FILES += ../../../../external/pbc/binding/lua/pbc-lua.c \
+                   ../../../../external/lua/pbc/lua_cocos2dx_pbc_manual.cpp
+
 #network
 LOCAL_SRC_FILES += ../manual/network/lua_cocos2dx_network_manual.cpp \
                    ../manual/network/lua_extensions.c \
@@ -165,7 +178,10 @@ LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
                     $(LOCAL_PATH)/../manual/navmesh \
                     $(LOCAL_PATH)/../../../../external/xxtea \
                     $(LOCAL_PATH)/../../../.. \
-                    $(LOCAL_PATH)/../../../../external/lua
+                    $(LOCAL_PATH)/../../../../external/lua \
+                    $(LOCAL_PATH)/../../../../external/pbc \
+                    $(LOCAL_PATH)/../../../../external/pbc/src \
+                    $(LOCAL_PATH)/../../../../external/pbc/binding/lua
 
 LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
 						   $(LUA_INCLUDE_PATH) \
@@ -187,6 +203,7 @@ LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/../../../../external/lua/tolua \
 LOCAL_WHOLE_STATIC_LIBRARIES := cocos2d_lua_android_static
 
 LOCAL_STATIC_LIBRARIES := cocos2dx_static
+LOCAL_STATIC_LIBRARIES += pbc_static
 
 include $(BUILD_STATIC_LIBRARY)
 
@@ -194,3 +211,4 @@ include $(BUILD_STATIC_LIBRARY)
 #$(call import-add-path,$(LOCAL_PATH)/../../../../external)
 $(call import-module,$(LUA_IMPORT_PATH))
 $(call import-module, cocos)
+$(call import-module, pbc)

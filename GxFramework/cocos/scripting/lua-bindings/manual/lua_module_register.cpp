@@ -35,6 +35,8 @@
 #include "scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.h"
 #include "scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.h"
 #include "scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.h"
+#include "md5/lua_md5.h"
+#include "pbc/lua_cocos2dx_pbc_manual.h"
 
 
 int lua_module_register(lua_State* L)
@@ -55,6 +57,10 @@ int lua_module_register(lua_State* L)
 #if CC_USE_NAVMESH
     register_navmesh_module(L);
 #endif
+
+	LUA_MD5::register_md5_module(L);
+	register_pbc_module(L);
+	
     return 1;
 }
 
