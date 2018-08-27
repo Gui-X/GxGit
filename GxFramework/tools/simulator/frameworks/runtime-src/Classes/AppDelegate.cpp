@@ -26,6 +26,7 @@
 #include "CCLuaEngine.h"
 #include "SimpleAudioEngine.h"
 #include "cocos2d.h"
+#include "scripting/lua-bindings/manual/lua_module_register.h"
 
 using namespace CocosDenshion;
 
@@ -55,6 +56,29 @@ bool AppDelegate::applicationDidFinishLaunching()
 {
     // set default FPS
     Director::getInstance()->setAnimationInterval(1.0 / 60.0f);
+
+	// register lua module	
+	auto engine = LuaEngine::getInstance();
+	ScriptEngineManager::getInstance()->setScriptEngine(engine);
+	lua_State* L = engine->getLuaStack()->getLuaState();
+	lua_module_register(L);
+
+	LuaStack* stack = engine->getLuaStack();
+	stack->setXXTEAKeyAndSign("2dxLua", strlen("2dxLua"), "XXTEA", strlen("XXTEA"));
+
+	//register custom function	
+	//LuaStack* stack = engine->getLuaStack();	
+	//register_custom_function(stack->getLuaState());	
+
+#if CC_64BITS		
+	FileUtils::getInstance()->addSearchPath("src/64bit");
+#endif		
+	FileUtils::getInstance()->addSearchPath("src");
+	FileUtils::getInstance()->addSearchPath("res");
+	if (engine->executeScriptFile("main.lua"))
+	{
+		return false;
+	}
 
     // Runtime end
     cocos2d::log("iShow!");
